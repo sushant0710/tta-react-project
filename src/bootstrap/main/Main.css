@@ -1,0 +1,8 @@
+#main .row .col:first-child{border-right: 1px solid black;}
+#main .row{height: 400px;}
+
+
+@media only screen and (max-width: 992px) {
+    #main .row .col:first-child{border-right: 0px solid black; border-bottom: 1px solid black;}
+
+  }
